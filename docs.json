@@ -2,6 +2,10 @@
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
   "name": "Rabfy",
+  "appearance": {
+    "strict": true,
+    "default": "dark"
+  },
   "colors": {
     "primary": "#e5662f",
     "light": "#e5662f",
