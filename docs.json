@@ -4,10 +4,10 @@
   "name": "Rabfy",
   "colors": {
     "primary": "#e5662f",
-    "light": "#41322a",
+    "light": "#e5662f",
     "dark": "#e5662f"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/favicon.ico",
   "navigation": {
     "tabs": [
       {
@@ -15,11 +15,7 @@
         "groups": [
           {
             "group": "Get Started",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
+            "pages": ["index", "quickstart", "development"]
           },
           {
             "group": "Essentials",
