@@ -3,7 +3,7 @@
   "theme": "mint",
   "name": "Rabfy",
   "appearance": {
-    "strict": true,
+    "strict": false,
     "default": "system"
   },
   "colors": {
