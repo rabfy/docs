@@ -15,6 +15,7 @@
   "navigation": {
     "tabs": [
       {
+        "tab": "Documentation",
         "groups": [
           {
             "group": "Getting Started",
