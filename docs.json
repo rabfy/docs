@@ -29,7 +29,7 @@
           },
           {
             "group": "Analytics",
-            "pages": ["analytics","utm-parameters-guide"]
+            "pages": ["analytics","utm-guide"]
           }
         ]
       }
