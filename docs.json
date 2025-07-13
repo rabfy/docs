@@ -30,6 +30,10 @@
           {
             "group": "Analytics",
             "pages": ["analytics","utm-guide"]
+          },
+          {
+            "group": "Platform Features",
+            "pages": ["storefront","collections"]
           }
         ]
       }
