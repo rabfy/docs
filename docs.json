@@ -29,7 +29,7 @@
           },
           {
             "group": "Platform Features",
-            "pages": ["storefront","collection"]
+            "pages": ["storefront","collections"]
           },
           {
             "group": "Tracking & Analytics",
