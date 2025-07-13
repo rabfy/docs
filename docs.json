@@ -15,7 +15,7 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Documentation",
+        "tab": "Guides",
         "groups": [
           {
             "group": "Getting Started",
@@ -28,12 +28,12 @@
             ]
           },
           {
-            "group": "Analytics",
-            "pages": ["analytics","utm-guide"]
+            "group": "Features",
+            "pages": ["storefront","collections"]
           },
           {
-            "group": "Platform Features",
-            "pages": ["storefront","collections"]
+            "group": "Analytics",
+            "pages": ["analytics","utm-guide"]
           }
         ]
       }
