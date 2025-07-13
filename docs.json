@@ -28,11 +28,11 @@
             ]
           },
           {
-            "group": "Features",
+            "group": "Platform Features",
             "pages": ["storefront","collections"]
           },
           {
-            "group": "Analytics",
+            "group": "Tracking & Analytics",
             "pages": ["analytics","utm-guide"]
           }
         ]
