@@ -29,11 +29,15 @@
           },
           {
             "group": "Platform Features",
-            "pages": ["storefront","collections"]
+            "pages": ["storefront","collections","cross-sells"]
           },
           {
             "group": "Tracking & Analytics",
             "pages": ["analytics","utm-guide"]
+          },
+          {
+            "group": "Integrations",
+            "pages": ["google-analytics","google-tag-manager","meta-pixel"]
           }
         ]
       }
