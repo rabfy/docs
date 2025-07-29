@@ -28,28 +28,24 @@ Using UTM links helps you:
 - Measure your ad return on investment (ROI)
 - Compare results across channels like Facebook, Instagram, or email
 
-Without UTM tracking, all traffic will look the same in your analytics — and you won’t know what’s working.
-
----
+Without UTM tracking, all traffic will look the same in your analytics and you won’t know what’s working.
 
 ## How to Set Up UTM Links
 
-Go to your ad or campaign platform and paste your store/product link.
+Go to your ad or campaign (e.g., meta ads) platform and while setting up ad campaign use the following url 
 
 Then, attach the UTM format like this:
 
 ```
-?utm_source=SOURCE&utm_medium=MEDIUM&utm_campaign=CAMPAIGN&utm_campaign=CAMPAIGN
+?utm_source={{site_source_name}}&utm_medium={{adset.name}}&utm_campaign={{campaign.name}}&utm_content={{ad.name}}
 ```
 
-**Replace the capital words with your actual details:**
-
-| Parameter         | What it means                         | Example           |
-| :---------------- | :------------------------------------ | :---------------- |
-| utm_source        | The platform or site                  | facebook, google  |
-| utm_medium        | The type of promotion                 | ad, post, email   |
-| utm_campaign      | The campaign name                     | launch, bogo50    |
-| utm_content (opt) | The specific ad or version (optional) | headline1, imageA |
+| Parameter    | What it means              | Example            |
+| :----------- | :------------------------- | :----------------- |
+| utm_source   | The platform or site       | facebook, google   |
+| utm_medium   | The type of promotion      | ad, post, email    |
+| utm_campaign | The campaign name          | summer, flash_sale |
+| utm_content  | The specific ad or version | video1, imageA     |
 
 ## Example UTM Link
 
@@ -59,8 +55,6 @@ https://www.yourstore.com/t-shirt?utm_source=facebook&utm_medium=ad&utm_campaign
 
 When someone clicks this link, Rabfy will track that visit in the **Analytics → UTM Source** report.
 
----
-
 ## Tracking UTM Results in Rabfy
 
 1. Go to your **Rabfy Dashboard**
@@ -68,24 +62,16 @@ When someone clicks this link, Rabfy will track that visit in the **Analytics �
 3. Choose **Report By: UTM Source**
 4. Select a time range (e.g., Last 7 days)
 5. View how each link performed:
-
-- Total visits
-- Add to cart
-- Reached checkout
-- Orders and conversion rate
-- Profit per UTM source
-
----
+   - Total visits
+   - Add to cart
+   - Reached checkout
+   - Orders and conversion rate
+   - Profit per UTM source
 
 ## Tips for Better Tracking
 
 - Be consistent with naming (e.g., use `facebook` not `fb` for clarity)
 - Use different campaign names for different promotions
-- Shorten long UTM links with tools like Bitly if needed
 - Always test your links before launching the ad
 
----
-
-If you want deeper insights or advanced filters, consider setting up **Google Analytics (GA4)** using Rabfy’s GA integration. See the [GA4 Setup Guide →](https://chatgpt.com/c/685a770b-ceac-8004-b8e2-6bbd7f311c97#ga4-integration)
-
-Let me know if you’d like this page exported as a quick-reference PDF or embedded in the help center.
+If you want deeper insights or advanced filters, consider setting up **Google Analytics (GA4)** using Rabfy’s GA integration. See the [GA4 Setup Guide →](https://docs.rabfy.com/google-analytics)
