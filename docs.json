@@ -33,11 +33,16 @@
           },
           {
             "group": "Tracking & Analytics",
-            "pages": ["analytics","utm-guide"]
+            "pages": [
+              "/docs/tracking-and-analytics/analytics",
+              "/docs/tracking-and-analytics/utm-guide"]
           },
           {
             "group": "Integrations",
-            "pages": ["google-analytics","google-tag-manager","meta-pixel"]
+            "pages": [
+              "/docs/integrations/google-analytics",
+              "/docs/integrations/google-tag-manager",
+              "/docs/integrations/meta-pixel"]
           }
         ]
       }
