@@ -21,10 +21,10 @@
             "group": "Getting Started",
             "pages": [
               "index",
-              "quickstart",
-              "store-setup",
-              "product-upload",
-              "start-selling"
+              "/docs/getting-started/quickstart",
+              "/docs/getting-started/store-setup",
+              "/docs/getting-started/product-upload",
+              "/docs/getting-started/start-selling"
             ]
           },
           {
