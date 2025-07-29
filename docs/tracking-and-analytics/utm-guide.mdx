@@ -15,9 +15,7 @@ For example:
 https://www.yourstore.com/product-name?utm_source=facebook&utm_medium=ad&utm_campaign=summer_sale&utm_content=image_ad
 ```
 
-This tells Rabfy that the visitor came from a Facebook ad as part of your summer campaign.
-
----
+This link shows Rabfy that the visitor arrived from a Facebook image ad in your Summer Sale campaign. Rabfy can then trace the visitor’s next steps inside your store such as pages viewed or items purchased etc.
 
 ## Why Use UTM Parameters?
 
@@ -25,27 +23,34 @@ Using UTM links helps you:
 
 - Know which platform brings the most visitors
 - See which campaign performs best
-- Measure your ad return on investment (ROI)
+- Measure your ad return on investment (ROI) properly
 - Compare results across channels like Facebook, Instagram, or email
 
 Without UTM tracking, all traffic will look the same in your analytics and you won’t know what’s working.
 
 ## How to Set Up UTM Links
 
-Go to your ad or campaign (e.g., meta ads) platform and while setting up ad campaign use the following parameters in the **URL parameters section:**
+- Open your ad platform (for example, Meta Ads).
+- In the **URL Parameters** field, paste this string:
 
 ```
 ?utm_source={{site_source_name}}&utm_medium={{adset.name}}&utm_campaign={{campaign.name}}&utm_content={{ad.name}}
 ```
 
-If you use this parameter for your ad setting, you will see the following information in the Analytics page of rabfy. 
+- Publish the ad.
+
+### What each tag means
 
 | Parameter    | What it means                            | Example             |
 | :----------- | :--------------------------------------- | :------------------ |
 | utm_source   | The platform or site or the source       | facebook, instagram |
-| utm_medium   | The type of promotion or your adset name | ad, post, email     |
+| utm_medium   | The type of promotion or your adset name | fb_ppc_ad           |
 | utm_campaign | The campaign name                        | summer, flash_sale  |
-| utm_content  | The specific ad or version               | video1, imageA      |
+| utm_content  | The specific ad or creative version      | video1, imageA      |
+
+### Creating custom links
+
+You can build your own UTM links for any free or paid channel. Just edit the four tags above, share the link with your audience, and Rabfy will report results under **Analytics → UTM Source/Medium/Campaign/Content**.
 
 ## Example UTM Link
 
@@ -53,13 +58,11 @@ If you use this parameter for your ad setting, you will see the following inform
 https://www.yourstore.com/t-shirt?utm_source=facebook&utm_medium=ad&utm_campaign=launch&utm_content=video_ad_1
 ```
 
-When someone clicks this link, Rabfy will track that visit in the **Analytics → UTM Source** report.
-
 ## Tracking UTM Results in Rabfy
 
 1. Go to your **Rabfy Dashboard**
 2. Click **Analytics** from the left menu
-3. Choose **Report By: UTM Source**
+3. Choose **Report By: **UTM Source, Medium, Campaign, or Content
 4. Select a time range (e.g., Last 7 days)
 5. View how each link performed:
    - Total visits

@@ -29,20 +29,26 @@
           },
           {
             "group": "Platform Features",
-            "pages": ["storefront","collections","cross-sells"]
+            "pages": [
+              "/docs/platform-features/storefront",
+              "/docs/platform-features/collections",
+              "/docs/platform-features/cross-sells"
+            ]
           },
           {
             "group": "Tracking & Analytics",
             "pages": [
               "/docs/tracking-and-analytics/analytics",
-              "/docs/tracking-and-analytics/utm-guide"]
+              "/docs/tracking-and-analytics/utm-guide"
+            ]
           },
           {
             "group": "Integrations",
             "pages": [
               "/docs/integrations/google-analytics",
               "/docs/integrations/google-tag-manager",
-              "/docs/integrations/meta-pixel"]
+              "/docs/integrations/meta-pixel"
+            ]
           }
         ]
       }
