@@ -32,20 +32,20 @@ Without UTM tracking, all traffic will look the same in your analytics and you w
 
 ## How to Set Up UTM Links
 
-Go to your ad or campaign (e.g., meta ads) platform and while setting up ad campaign use the following url 
-
-Then, attach the UTM format like this:
+Go to your ad or campaign (e.g., meta ads) platform and while setting up ad campaign use the following parameters in the **URL parameters section:**
 
 ```
 ?utm_source={{site_source_name}}&utm_medium={{adset.name}}&utm_campaign={{campaign.name}}&utm_content={{ad.name}}
 ```
 
-| Parameter    | What it means              | Example            |
-| :----------- | :------------------------- | :----------------- |
-| utm_source   | The platform or site       | facebook, google   |
-| utm_medium   | The type of promotion      | ad, post, email    |
-| utm_campaign | The campaign name          | summer, flash_sale |
-| utm_content  | The specific ad or version | video1, imageA     |
+If you use this parameter for your ad setting, you will see the following information in the Analytics page of rabfy. 
+
+| Parameter    | What it means                            | Example             |
+| :----------- | :--------------------------------------- | :------------------ |
+| utm_source   | The platform or site or the source       | facebook, instagram |
+| utm_medium   | The type of promotion or your adset name | ad, post, email     |
+| utm_campaign | The campaign name                        | summer, flash_sale  |
+| utm_content  | The specific ad or version               | video1, imageA      |
 
 ## Example UTM Link
 
