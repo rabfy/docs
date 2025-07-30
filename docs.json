@@ -63,5 +63,10 @@
       "label": "Dashboard",
       "href": "https://dashboard.rabfy.com"
     }
-  }
+  },
+  "integrations": {
+    "gtm": {
+        "tagId": "G-PJKQ2WVL2Q"
+    }
+}
 }
