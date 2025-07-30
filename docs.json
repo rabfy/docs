@@ -4,7 +4,7 @@
   "name": "Rabfy",
   "appearance": {
     "strict": false,
-    "default": "dark"
+    "default": "system"
   },
   "colors": {
     "primary": "#e5662f",
