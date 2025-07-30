@@ -30,7 +30,6 @@
           {
             "group": "Platform Features",
             "pages": [
-              "/docs/platform-features/storefront",
               "/docs/platform-features/collections",
               "/docs/platform-features/cross-sells"
             ]
